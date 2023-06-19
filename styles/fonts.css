@@ -1,0 +1,15 @@
+
+@font-face {
+    font-family: 'Square Sans Pro light';
+    src: url('/fonts/PFSquareSansProLight_35485.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Square Sans Pro regular';
+    src: url('/fonts/PFSquareSansProRegular_35489.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Square Sans Pro medium';
+    src: url('/fonts/PFSquareSansProMedium_35487.ttf') format('truetype');
+}
