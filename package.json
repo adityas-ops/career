@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@glidejs/glide": "^3.6.0",
+    "@splidejs/react-splide": "^0.7.12",
     "autoprefixer": "10.4.14",
     "eslint": "8.43.0",
     "eslint-config-next": "13.4.6",

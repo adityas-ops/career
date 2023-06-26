@@ -8,7 +8,7 @@ function Header() {
   const nav = [
     {
       name: "Interviews",
-      link: "/",
+      link: "/interview",
     },
     {
       name: "Locations",
@@ -27,6 +27,7 @@ function Header() {
     <>
       <div className="w-full h-[78px] border-[1px] flex justify-center  ">
         <div className="w-[98%] flex items-center justify-between h-full">
+       
           <div className="md:w-[20%] w-[40%] h-full  flex   justify-start items-center ">
             <div className="border-black flex border-r-[1px]">
               <Image
@@ -37,9 +38,11 @@ function Header() {
                 className="mr-4 ml-3"
               />
             </div>
+            <Link href="/">
             <div className=" ml-4 text-[19px] font-semibold text-[#1A1A1A] flex items-end">
               Careers
             </div>
+            </Link>
           </div>
           <div className="w-full h-full hidden  md:flex justify-center items-center ">
             {nav.map((item, index) => {
@@ -58,7 +61,7 @@ function Header() {
             <button className="w-[108px] hidden md:block h-[48px] bg-blue-600 rounded text-white hover:bg-blue-700">
               <Link href="#">Search jobs</Link>
             </button>
-            <div className="  text-black mr-4">
+            <div className="  text-black mr-4 block md:hidden">
               <button
                 onClick={() => {
                   setIsopen(!isopen);

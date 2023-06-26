@@ -58,8 +58,8 @@ function Content() {
           Reimagining commerce for all.
         </h4>
         <p className="text-center mt-4 text-[20px] w-[95%] lg:w-[40%] ">
-          We’re working to find new and better ways to help <br /> businesses
-          succeed, and we’re looking for people like <br /> you to help shape
+          We&apos;re working to find new and better ways to help <br /> businesses
+          succeed, and we&apos;re looking for people like <br /> you to help shape
           tomorrow at Square.
         </p>
       </div>

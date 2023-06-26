@@ -51,15 +51,15 @@ const handleNext = () => {
   
     </div>
     </div>
-    <div className="absolute inset-0 px-10 flex items-center justify-between">
+    <div className="md:absolute inset-0 px-10 w-[50%] md:w-full my-5 md:my-0 flex items-center justify-between">
         <button
-          className="bg-white text-black font-[700] rounded-full p-2 text-[1.5rem]"
+          className="bg-white text-black font-[700] rounded-full p-2 text-[1.5rem] border-[1px] border-black"
           onClick={handlePrevious}
         >
           <BiLeftArrowAlt/>
         </button>
         <button
-          className="bg-white text-black font-[700] rounded-full p-2 text-[1.5rem]"
+          className="bg-white text-black font-[700] rounded-full p-2 text-[1.5rem] border-[1px] border-black"
           onClick={handleNext}
         >
          <BiRightArrowAlt/>
