@@ -34,7 +34,7 @@ const images = [
     }
   ];
 
-function life_at() {
+function Life_at() {
   const [padd,setPadd] = useState("1rem")
   
   useEffect(() => {
@@ -90,20 +90,17 @@ that support who you are both inside and outside the office.
                     key={index}
                     src={image.src}
                     alt={image.alt}
-                    
-                   
                 />
                 <p className='mt-6'>{image.title}</p>
                </div>
                 </SplideSlide>
-            ))
-
-        }
-
+            ))}
       </Splide>
       </div>
+      {/* another section */}
+      
     </>
   )
 }
 
-export default life_at
+export default Life_at
