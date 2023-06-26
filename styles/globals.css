@@ -18,3 +18,7 @@ video {
 .slide-out {
   transform: translateX(100%);
 }
+
+.splide__arrow{
+  background-color: black;
+}
