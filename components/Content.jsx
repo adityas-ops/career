@@ -54,10 +54,10 @@ function Content() {
   return (
     <>
       <div className="w-full h-fit pb-12  flex flex-col items-center">
-        <h4 className="text-center pt-24 text-[30px] font-[500]">
+        <h4 className="text-center pt-[1.5rem] md:pt-[4.5rem] text-[2rem] font-[500]">
           Reimagining commerce for all.
         </h4>
-        <p className="text-center mt-4 text-[20px] w-[40%]">
+        <p className="text-center mt-4 text-[20px] w-[95%] lg:w-[40%] ">
           We’re working to find new and better ways to help <br /> businesses
           succeed, and we’re looking for people like <br /> you to help shape
           tomorrow at Square.
@@ -74,7 +74,7 @@ function Content() {
             width={108}
             height={108}
           />
-          <h3 className=" font-square-medium text-[1.75rem] font-[500] mt-[2rem]">
+          <h3 className=" font-square-medium text-[1.75rem] font-[500] mt-[2rem] text-center">
             Helping local businesses worldwide.
           </h3>
           <p className="mt-[2rem] leading-[28px]  font-[400] text-center w-[85%] lg:w-[70%] ">
@@ -120,7 +120,7 @@ function Content() {
                   width={100}
                   alt="Picture of the author"
                   />
-                <p className="pt-[2rem] text-[2rem] font-[500]">Find the right opportunity at Square.</p>
+                <p className="pt-[2rem] text-[2rem] font-[500] text-center">Find the right opportunity at Square.</p>
                 <Link 
                 href="#"
                 className="w-[150px] h-[32px] my-[2rem] btn text-[12px]  bg-blue-700 text-center text-white rounded-[10px]"
