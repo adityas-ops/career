@@ -38,7 +38,7 @@ function Header() {
                Careers
                 </div>
         </div>
-        <div className='w-full h-full  flex justify-center items-center'>
+        <div className='w-full h-full hidden  md:flex justify-center items-center '>
             {
                 nav.map((item,index)=>{
                     return(
