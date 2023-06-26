@@ -20,7 +20,7 @@ function Header() {
     },
     {
       name: "Left at Square",
-      link: "/",
+      link: "/life-at-square",
     },
   ];
   return (
