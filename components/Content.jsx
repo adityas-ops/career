@@ -1,6 +1,6 @@
 import React from "react";
 import Carousal from "./Carousal";
-import Carousel2 from "./Carousel2";
+import Carousel3 from "./Carousel3";
 import Image from "next/image";
 import Link from "next/link";
 import Cards from "./Cards";
@@ -105,6 +105,7 @@ function Content() {
           </Link>
         </div>
       </div>
+      <Carousel3/>
       <div className="w-full  flex justify-center items-center mt-[2rem]">
         <div className="container flex flex-col items-center justify-center ">
           <div className="md:w-[75%] w-[90%] grid md:grid-cols-2 grid-cols-1   gap-5 pb-[3rem]">

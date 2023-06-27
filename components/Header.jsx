@@ -44,13 +44,13 @@ function Header() {
             </div>
             </Link>
           </div>
-          <div className="w-full h-full hidden  md:flex justify-center items-center ">
+          <div className="w-full h-full hidden  md:flex justify-center items-center font-[500]">
             {nav.map((item, index) => {
               return (
                 <Link
                   key={index}
                   href={item.link}
-                  className="px-[5px] text-base font-[400] mx-[5px] transition-all duration-200 ease-in-out hover:bg-slate-100 hover:py-4   hover:rounded"
+                  className="px-[5px] text-base font-[500] mx-[5px] transition-all duration-200 ease-in-out hover:bg-slate-100 hover:py-4   hover:rounded "
                 >
                   {item.name}
                 </Link>

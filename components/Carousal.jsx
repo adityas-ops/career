@@ -12,7 +12,7 @@ useEffect(() => {
   
         setPadd('1rem')
       } else {
-        setPadd('10rem')
+        setPadd('12rem')
       }
     };
   
@@ -28,12 +28,12 @@ useEffect(() => {
     };
   }, []);
   return (
-    <div className='py-[4rem]'>
+    <div className="">
       <Splide
         options={{
           perPage: 1,
           type: 'loop',
-          padding: padd,
+          padding:padd,
           pagination: false,
           perMove: 1,
         }}
@@ -47,7 +47,7 @@ useEffect(() => {
                     src={image}
                     alt="as"
                     
-                   
+                   className=''
                 />
                </div>
                 </SplideSlide>
