@@ -12,14 +12,14 @@ function Header() {
     },
     {
       name: "Locations",
-      link: "/",
+      link: "/location",
     },
     {
       name: "Emerging Talent",
-      link: "/",
+      link: "/emerging-talent",
     },
     {
-      name: "Left at Square",
+      name: "Life at Square",
       link: "/life_at",
     },
   ];
